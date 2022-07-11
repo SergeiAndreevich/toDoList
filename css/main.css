@@ -1,6 +1,12 @@
 body{
-	background-color: blueviolet;
+	/*background-color: blueviolet;
 	opacity: 90%;
+*/
+	background-image: url(https://kartinkin.net/uploads/posts/2021-10/1633778455_56-kartinkin-net-p-noch-piksel-art-krasivo-61.jpg);
+	/*background-size: 100% auto;*/
+	background-size: cover;
+	opacity: 100%;
+	z-index: 0;
 }
 
 .header{
@@ -51,8 +57,40 @@ body{
 .main-content__add-note{
 	width: 1220px;
 	height: 100%;
-	opacity: 40%;
+	opacity: 100%;
 /*	background-color: grey;
-*/	background: rgb(9,9,121);
-	background: linear-gradient(113deg, rgba(9,9,121,0.23573179271708689) 0%, rgba(230,230,232,0.5634628851540616) 47%, rgba(0,212,255,0.3029586834733894) 100%);
+*/	
+	background: rgb(9,9,121);
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(113deg, rgba(9,9,121,0.4) 0%, rgba(230,230,230,0.8634628851540616) 37%, rgba(0,212,255,0.5029586834733894) 100%);
+	z-index: 2;
 }
+
+.main-content__btn{
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+.btn{
+	padding: 40px 300px;
+	font-size: 24px;
+	background-color: rgba(0, 0, 0, 0.0);
+	border: 1px solid white;
+	border-radius: 10px;
+	border-style: dashed;
+	color: white;
+}
+
+.main-content__node-list{
+	/*display: flex;*/
+	/*justify-content: center;*/
+	text-align: left;
+	padding: 40px 100px;
+}
+
+.main-content__input{
+	width: 100%;
+	padding: 10px 20px;
+}
+
